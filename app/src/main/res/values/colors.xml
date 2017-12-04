@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    
+    <!-- boje za aplikaciju -->
+    <color name="dep_champagne">#F7DBA7</color>
+    <color name="pastel_red">#FF6663</color>
+    <color name="metalic_sunburst">#A8763E</color>
+    <color name="dirty_white">#FEFFFE</color>
+    <color name="silver">#cfc8bc</color>
+    <color name="light_green">#e5f8bd</color>
+    <color name="light_red">#f8d3bd</color>
+</resources>

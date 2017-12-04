@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <FrameLayout
+        android:id="@+id/fl_fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/iv_banner"
+        android:layout_marginTop="10dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/profile_picture"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/tv_plus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv_banner"
+        android:text="+"
+        android:layout_centerHorizontal="true"
+        android:textSize="40sp"/>
+
+    <ImageView
+        android:id="@+id/iv_banner_dog"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/matea_dog"
+        android:layout_below="@+id/tv_plus"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/tv_jednako"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv_banner_dog"
+        android:text="="
+        android:layout_centerHorizontal="true"
+        android:textSize="40sp"/>
+
+    <ImageView
+        android:id="@+id/iv_banner_hearth"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/hearth"
+        android:layout_below="@+id/tv_jednako"
+        android:layout_centerHorizontal="true"/>
+
+    <LinearLayout
+        android:id="@+id/ll_loader_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/silver"
+        android:gravity="center"
+        android:visibility="gone">
+        <ProgressBar
+            android:id="@+id/pb_loader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</RelativeLayout>

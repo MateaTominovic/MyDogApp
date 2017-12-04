@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dirty_white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/iv_dog_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/matea_dog"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"/>
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_centerHorizontal="true"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:text="adasdasdasdadad"
+            android:layout_below="@+id/iv_dog_image"/>
+
+        <TextView
+            android:id="@+id/tv_opis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_centerHorizontal="true"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:text="adasdasdasdadad"
+            android:layout_below="@+id/tv_name"/>
+
+        <TextView
+            android:id="@+id/tv_starost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_centerHorizontal="true"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:text="adasdasdasdadad"
+            android:layout_below="@+id/tv_opis"/>
+
+        <TextView
+            android:id="@+id/tv_birthdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_centerHorizontal="true"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:text="adasdasdasdadad"
+            android:layout_below="@+id/tv_starost"/>
+
+        <TextView
+            android:id="@+id/tv_vrsta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_centerHorizontal="true"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:text="adasdasdasdadad"
+            android:layout_below="@+id/tv_birthdate"/>
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_app_icon"
+            android:icon="@drawable/app_icon"
+            android:title="Moj pas" />
+        <item
+            android:id="@+id/nav_health"
+            android:icon="@drawable/helth_icon"
+            android:title="Zdravlje" />
+        <item
+            android:id="@+id/nav_feed"
+            android:icon="@drawable/feed_dog"
+            android:title="Klopa" />
+        <item
+            android:id="@+id/nav_walk"
+            android:icon="@drawable/walk_dog"
+            android:title="Šetnja" />
+
+        <item
+            android:id="@+id/google_map"
+            android:icon="@drawable/mpa_marker"
+            android:title="Lokacije"/>
+    </group>
+
+    <group
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_notification"
+            android:icon="@drawable/notification"
+            android:title="Notifikacije" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/logout_icon"
+            android:title="Logout" />
+    </group>
+
+</menu>

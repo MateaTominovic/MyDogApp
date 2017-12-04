@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.activities.LoginActivity"
+    android:background="@color/silver">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ll_login_continer"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/app_icon"/>
+
+    <LinearLayout
+        android:id="@+id/ll_login_continer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/et_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Korisničko ime"
+            android:textColor="@color/metalic_sunburst"
+            android:singleLine="true"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:id="@+id/et_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Lozink"
+            android:textColor="@color/metalic_sunburst"
+            android:singleLine="true"
+            android:inputType="textPassword"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/tv_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:textColor="@color/metalic_sunburst"
+            android:text="Login"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_loader_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/silver"
+        android:gravity="center"
+        android:visibility="gone">
+        <ProgressBar
+            android:id="@+id/pb_loader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true" />
+    </LinearLayout>
+</RelativeLayout>
